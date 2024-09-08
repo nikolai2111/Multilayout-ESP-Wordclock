@@ -280,6 +280,7 @@ enum ClockType {
     It10x11 = 16,
     Hu10x10 = 17,
     Ch10x11 = 18,
+    Ch10x11JoergUhr = 99,
     Ro10x11 = 19,
     Fr10x11 = 21,
     Se10x11 = 22,

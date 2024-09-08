@@ -19,7 +19,7 @@
  *  9  | _ _ Z W Ö U F I _ _ _
  */
 
-class Ch10x11_t : public iUhrType {
+class Ch10x11JoergUhr_t : public iUhrType {
 public:
     virtual LanguageAbbreviation usedLang() override {
         return LanguageAbbreviation::DE;
@@ -128,4 +128,4 @@ public:
     };
 };
 
-Ch10x11_t _ch10x11;
+Ch10x11JoergUhr_t _ch10x11joerguhr;

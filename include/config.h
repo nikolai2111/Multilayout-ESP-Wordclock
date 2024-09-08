@@ -10,7 +10,7 @@
 /*       German       */
 /**********************/
 //
-#define DEFAULT_LAYOUT Ger10x11
+// #define DEFAULT_LAYOUT Ger10x11
 // 10 rows, 11 LEDs per row + 4 LEDs for minutes
 //
 // #define DEFAULT_LAYOUT Ger10x11Alternative
@@ -107,6 +107,10 @@
 // #define DEFAULT_LAYOUT  Ch10x11
 // 10 rows, 11 LED's per row + 4 LED's for minutes, with modified
 // layout for the Swiss German language
+//
+#define DEFAULT_LAYOUT  Ch10x11JoergUhr
+// 10 rows, 11 LED's per row + 4 LED's for minutes, with modified
+// layout for the Swiss German language an person specific letters.
 
 /**********************/
 /*      Romanian      */
@@ -155,7 +159,7 @@
  *
  * Valid values for WHITE_LEDTYPE [WarmWhite, NeutralWhite, ColdWhite]
  */
-#define DEFAULT_LEDTYPE Brg
+#define DEFAULT_LEDTYPE Grb
 #define WHITE_LEDTYPE WhiteType::NeutralWhite
 
 //--------------------------------------------------------------------------
@@ -200,7 +204,7 @@
  *
  * Valid values [0 ... 255]
  */
-#define SERNR 33
+#define SERNR 0
 //--------------------------------------------------------------------------
 // Toggle Serial DEBUG Output
 //--------------------------------------------------------------------------

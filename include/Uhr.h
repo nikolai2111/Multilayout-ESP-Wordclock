@@ -92,7 +92,7 @@ enum class WordclockChanges {
 };
 
 struct GLOBAL {
-    uint8_t sernr;
+    uint16_t sernr;
     uint16_t prog;
     uint8_t param1;
     bool progInit;
@@ -127,9 +127,9 @@ struct GLOBAL {
 
     OpenWeatherMapData openWeatherMap;
 
-    uint8_t autoLdrEnabled;
-    uint8_t autoLdrBright;
-    uint8_t autoLdrDark;
+    uint8_t autoBrightEnabled;
+    uint8_t autoBrightOffset;
+    uint8_t autoBrightSlope;
     uint8_t transitionType;
     uint8_t transitionDuration;
     uint8_t transitionSpeed;
@@ -146,7 +146,7 @@ struct GLOBAL {
 GLOBAL G = {};
 
 // LDR
-uint8_t ldrVal = 100;
+float ledGain = 100;
 
 uint8_t _second = 0;
 uint8_t _secondFrame = 0;
@@ -181,7 +181,8 @@ enum LedColorVariants {
     Grb = 1,
     Rgb = 2,
     Rbg = 3,
-    Grbw = 4,
+    Bgr = 4,
+    Grbw = 5,
 };
 
 enum LanguageDialects {
@@ -241,7 +242,7 @@ enum CommandWords {
     COMMAND_SET_WIFI_AND_RESTART = 99,
     COMMAND_RESET = 100,
     COMMAND_SET_BOOT = 101,
-    COMMAND_SET_AUTO_LDR = 102,
+    COMMAND_SET_AUTO_BRIGHT = 102,
     COMMAND_SET_LAYOUT_VARIANT = 103,
     COMMAND_SET_MQTT_HA_DISCOVERY = 104,
 
@@ -252,7 +253,7 @@ enum CommandWords {
     COMMAND_REQUEST_CONFIG_VALUES = 200,
     COMMAND_REQUEST_COLOR_VALUES = 201,
     COMMAND_REQUEST_WIFI_LIST = 202,
-    COMMAND_REQUEST_AUTO_LDR = 203,
+    COMMAND_REQUEST_AUTO_BRIGHT = 203,
     COMMAND_REQUEST_TRANSITION = 204,
     COMMAND_REQUEST_MQTT_VALUES = 205,
     COMMAND_REQUEST_BIRTHDAYS = 206,
@@ -288,21 +289,19 @@ enum ClockType {
 };
 
 enum Icons {
-    WLAN100 = 0,
-    WLAN60 = 1,
-    WLAN30 = 2,
-    FIRE_1 = 3,
-    FIRE_2 = 4,
-    FIRE_3 = 5,
-    FIRE_4 = 6,
-    FIRE_5 = 7,
-    FIRE_6 = 8,
-    HEART = 9,
-    SMILEY = 10,
-    NOTE = 11,
-    SNOW = 12,
-    MAIL = 13,
-    BELL = 14,
-    STOP = 15,
-    STBY = 16,
+    WLAN100,
+    FIRE_1,
+    FIRE_2,
+    FIRE_3,
+    FIRE_4,
+    FIRE_5,
+    FIRE_6,
+    HEART,
+    SMILEY,
+    NOTE,
+    SNOW,
+    MAIL,
+    BELL,
+    STOP,
+    STBY,
 };

@@ -352,8 +352,8 @@ void Transition::setMinute() {
         }
         for (uint8_t i = 0; i < 4; i++) {
             led.setPixel(minArray[i],
-                         HsbColor{m > i ? foreground : background});
-            // TODO: foregroundMinute
+                         HsbColor{m > i ? foregroundMinute : background});
+            // TODO: fading transition for Minutes
         }
     }
 }
@@ -631,7 +631,6 @@ uint16_t Transition::transitionFire() {
     if (phase == 1) {
         // FIRE_1 .. 6 + 4 = 10
         transitionDelay = calcDelay(blendingFrames * 10) / 2;
-        phase = FIRE_1;
         sparkle = false;
         subPhase = 1;
         firework->prepare(0, _white, FIRE_1, mirrored);
@@ -657,12 +656,12 @@ uint16_t Transition::transitionFire() {
             copyMatrix(old, work);
             copyMatrixFlags(work, act);
         }
+        phase++;
     }
 
     bool lastSubPhase = subPhase == blendingFrames;
     if (subPhase > blendingFrames) {
         subPhase = 1;
-        phase++;
         switch (phase) {
         case FIRE_4:
             firework->prepare(0, _red, FIRE_4, mirrored);
@@ -699,6 +698,7 @@ uint16_t Transition::transitionFire() {
         default:
             firework->prepare(0, _white, static_cast<Icons>(phase), mirrored);
         }
+        phase++;
     }
 
     RgbColor overlayColor;
@@ -927,8 +927,8 @@ uint16_t Transition::transitionMatrixRain() {
         }
     }
     float progress = static_cast<float>(phase) / static_cast<float>(frames);
-    for (col = 0; col < usedUhrType->rowsWordMatrix(); col++) {
-        for (row = 0; row < usedUhrType->colsWordMatrix(); row++) {
+    for (col = 0; col < usedUhrType->colsWordMatrix(); col++) {
+        for (row = 0; row < usedUhrType->rowsWordMatrix(); row++) {
             fadeColor =
                 fadeColor.LinearBlend(old[row][col], act[row][col], progress);
             rainColor = rain[col].get(row);
@@ -1023,7 +1023,9 @@ bool Transition::isOverwrittenByTransition(WordclockChanges changesInWordMatrix,
                 initTransitionStart();
             }
             lastMinute = minute;
-            matrixChanged = true;
+            if (changesInWordMatrix != WordclockChanges::Minute) {
+                matrixChanged = true;
+            }
             return false;
         } else {
             if (changeBrightness()) {
@@ -1056,6 +1058,9 @@ void Transition::loop(struct tm &tm) {
 
         if (matrixChanged) {
             matrixChanged = false;
+            if (isColorization() && (G.transitionSpeed > 0)) {
+                copyMatrix(act, work);
+            }
             saveMatrix();
             copyMatrix(work, act);
         }
@@ -1130,6 +1135,10 @@ void Transition::loop(struct tm &tm) {
             copy2Stripe(work);
             if (!specialEvent) {
                 setMinute();
+                if (G.secondVariant != SecondVariant::Off) {
+                    led.setbySecondArray();
+                    // Workaround: setbySecoundArray not in 'work'
+                }
             }
             led.show();
         }

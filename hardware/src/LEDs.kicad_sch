@@ -1,0 +1,16 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4cad8915-f349-4686-b921-34b871ffba44")
+	(paper "A4")
+	(title_block
+		(title "Wordclock - LEDs")
+		(date "2024-10-19")
+		(rev "A")
+		(company "ElektroNik Zoller")
+		(comment 1 "Nikolai Zoller")
+		(comment 4 "CERN-OHL-P")
+	)
+	(lib_symbols)
+)

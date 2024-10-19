@@ -1,0 +1,16 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "860369a7-6011-4c54-b6b5-31f6c7cac5ae")
+	(paper "A4")
+	(title_block
+		(title "Wordclock - Brightness Sensor")
+		(date "2024-10-19")
+		(rev "A")
+		(company "ElektroNik Zoller")
+		(comment 1 "Nikolai Zoller")
+		(comment 4 "CERN-OHL-P")
+	)
+	(lib_symbols)
+)

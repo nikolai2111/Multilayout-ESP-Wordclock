@@ -1,0 +1,16 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f3dc7354-723f-4811-b953-23c7c0c2eff5")
+	(paper "A4")
+	(title_block
+		(title "Wordclock - Microcontroller Unit")
+		(date "2024-10-19")
+		(rev "A")
+		(company "ElektroNik Zoller")
+		(comment 1 "Nikolai Zoller")
+		(comment 4 "CERN-OHL-P")
+	)
+	(lib_symbols)
+)

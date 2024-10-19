@@ -580,6 +580,26 @@
     [
       "bfaac094-0365-40a4-8b7a-d4d62ace544e",
       "Root"
+    ],
+    [
+      "148425c6-8949-47fb-990d-0e511c74cf4c",
+      "MCU"
+    ],
+    [
+      "987a25a3-048c-43c4-a9ef-49bb39c41ed4",
+      "USB"
+    ],
+    [
+      "ec66bd8a-ab18-419c-8a8f-29e1d0925890",
+      "RTC"
+    ],
+    [
+      "f41fc7d2-fe85-46c5-8d89-2a876a89e5a0",
+      "Brightness Sensor"
+    ],
+    [
+      "c23f8616-5eaa-4df3-8ee0-2a2271a82cce",
+      "LEDs"
     ]
   ],
   "text_variables": {}

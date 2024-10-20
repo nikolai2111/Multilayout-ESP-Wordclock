@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Wordclock - USB")
-		(date "2024-10-19")
+		(date "2024-10-20")
 		(rev "A")
 		(company "ElektroNik Zoller")
 		(comment 1 "Nikolai Zoller")
@@ -2668,6 +2668,34 @@
 		(at 165.1 104.14)
 		(uuid "f3f87955-9094-4a37-bb9e-73b1aeae87ae")
 	)
+	(bus_entry
+		(at 177.8 68.58)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c039f665-3b44-4510-9c38-fe2163d8379e")
+	)
+	(bus_entry
+		(at 177.8 66.04)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df1fcf53-3af8-4c9e-bada-45ea93095a02")
+	)
+	(bus
+		(pts
+			(xy 180.34 63.5) (xy 180.34 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0266b472-4862-4bb9-9f97-0911de512366")
+	)
 	(wire
 		(pts
 			(xy 101.6 181.61) (xy 101.6 184.15)
@@ -3050,7 +3078,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 68.58) (xy 172.72 68.58)
+			(xy 165.1 68.58) (xy 177.8 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3348,6 +3376,16 @@
 		)
 		(uuid "b6d3321e-1588-43db-bfd2-d433a265e911")
 	)
+	(bus
+		(pts
+			(xy 180.34 60.96) (xy 182.88 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ca7853-f5e8-4c56-b80f-45a158c860d4")
+	)
 	(wire
 		(pts
 			(xy 38.1 106.68) (xy 38.1 109.22)
@@ -3420,7 +3458,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 66.04) (xy 172.72 66.04)
+			(xy 165.1 66.04) (xy 177.8 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3487,6 +3525,16 @@
 			(type default)
 		)
 		(uuid "df2c7fed-f9b3-4892-a3f4-d671aa2c42df")
+	)
+	(bus
+		(pts
+			(xy 180.34 66.04) (xy 180.34 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5dc24b1-ec31-4fd6-ac33-26e3afd1e8c4")
 	)
 	(wire
 		(pts
@@ -3947,7 +3995,29 @@
 		)
 		(uuid "f5e145eb-f21d-4ed6-8d68-31551c538792")
 	)
-	(hierarchical_label "GPIO9"
+	(label "UART.RXD"
+		(at 177.8 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ac039623-5f06-4847-8392-e5e7081deef7")
+	)
+	(label "UART.TXD"
+		(at 177.8 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bfc3c2e1-5ded-4d7d-a7de-8084d4f04576")
+	)
+	(hierarchical_label "BOOT"
 		(shape input)
 		(at 215.9 64.77 0)
 		(fields_autoplaced yes)
@@ -3958,18 +4028,6 @@
 			(justify left)
 		)
 		(uuid "2f12a14c-4064-4d19-bb54-33e6abc2dcf9")
-	)
-	(hierarchical_label "RXD"
-		(shape input)
-		(at 172.72 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "36d503cd-9d48-4f0c-a8a1-53e8942a32fd")
 	)
 	(hierarchical_label "RST"
 		(shape input)
@@ -3983,9 +4041,9 @@
 		)
 		(uuid "5741e89f-c7c5-42fd-ae7f-11e54100775e")
 	)
-	(hierarchical_label "TXD"
+	(hierarchical_label "UART{TXD, RXD}"
 		(shape input)
-		(at 172.72 66.04 0)
+		(at 182.88 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3993,7 +4051,7 @@
 			)
 			(justify left)
 		)
-		(uuid "57946990-c58f-4e57-a8b2-31ae45061bee")
+		(uuid "d97145f8-7e36-4cd4-ba5b-f68ab0af9650")
 	)
 	(symbol
 		(lib_id "power:VBUS")

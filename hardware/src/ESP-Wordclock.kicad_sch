@@ -6,13 +6,135 @@
 	(paper "A4")
 	(title_block
 		(title "Wordclock - Top")
-		(date "2024-10-19")
+		(date "2024-10-20")
 		(rev "A")
 		(company "ElektroNik Zoller")
 		(comment 1 "Nikolai Zoller")
 		(comment 4 "CERN-OHL-P")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
 	(junction
 		(at 165.1 96.52)
 		(diameter 0)
@@ -20,14 +142,24 @@
 		(uuid "2057b3c6-992b-4725-b044-30c7bdc56b12")
 	)
 	(junction
+		(at 120.65 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4eff1e7e-fe2f-490a-bfeb-529250bf47b5")
+	)
+	(junction
 		(at 175.26 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "595424f7-2216-4a62-8033-5f5bc1d8d388")
 	)
+	(no_connect
+		(at 177.8 129.54)
+		(uuid "ecff011c-20bd-40d8-86a8-0730ee88652d")
+	)
 	(wire
 		(pts
-			(xy 120.65 110.49) (xy 120.65 124.46)
+			(xy 120.65 71.12) (xy 120.65 104.14)
 		)
 		(stroke
 			(width 0)
@@ -87,7 +219,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 73.66) (xy 172.72 104.14)
+			(xy 170.18 73.66) (xy 170.18 104.14)
 		)
 		(stroke
 			(width 0)
@@ -107,7 +239,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 73.66) (xy 172.72 73.66)
+			(xy 152.4 73.66) (xy 170.18 73.66)
 		)
 		(stroke
 			(width 0)
@@ -137,7 +269,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 104.14) (xy 177.8 104.14)
+			(xy 170.18 104.14) (xy 177.8 104.14)
 		)
 		(stroke
 			(width 0)
@@ -157,7 +289,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 71.12) (xy 127 71.12)
+			(xy 114.3 71.12) (xy 120.65 71.12)
 		)
 		(stroke
 			(width 0)
@@ -204,6 +336,96 @@
 			(type default)
 		)
 		(uuid "d1576b25-202d-49b2-a2c6-44e6f0e3421b")
+	)
+	(wire
+		(pts
+			(xy 120.65 71.12) (xy 127 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dadb7308-d901-4a27-8775-8a4e9c38e4df")
+	)
+	(wire
+		(pts
+			(xy 120.65 111.76) (xy 120.65 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff439605-1778-41b3-a542-11c381d01030")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "789c623e-b69a-4d14-8142-4cf5eddf9e35")
+		(property "Reference" "R101"
+			(at 123.19 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 123.19 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.872 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0601da25-2a72-465a-b412-a8c3d38cf680")
+		)
+		(pin "1"
+			(uuid "fca24d60-9031-47a1-bdf5-48a2b1b6407f")
+		)
+		(instances
+			(project ""
+				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e"
+					(reference "R101")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 127 63.5)
@@ -255,16 +477,6 @@
 			)
 			(uuid "5e2b0f52-50ac-4f9b-9fc8-d8717f4cfde2")
 		)
-		(pin "IO9" input
-			(at 127 73.66 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a0dad1fc-7a9c-403f-80d6-07125dc0e79e")
-		)
 		(pin "IO19" input
 			(at 152.4 91.44 0)
 			(effects
@@ -315,16 +527,6 @@
 			)
 			(uuid "1c8d6da5-dcd1-4ae0-9e1f-e3bc080f516e")
 		)
-		(pin "EN" input
-			(at 127 71.12 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e576d468-35df-448d-84ae-04d6cfa79acc")
-		)
 		(pin "IO1" input
 			(at 152.4 68.58 0)
 			(effects
@@ -354,6 +556,26 @@
 				(justify right)
 			)
 			(uuid "c2a59166-be9e-47cd-b102-560fb7657f2a")
+		)
+		(pin "BOOT" bidirectional
+			(at 127 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c2f67bd5-b9d2-4d68-8bce-dec9da60c9e5")
+		)
+		(pin "~{RST}" bidirectional
+			(at 127 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c95d84f0-559c-4fec-a5a9-eced5e1ae9be")
 		)
 		(instances
 			(project "ESP-Wordclock"
@@ -413,7 +635,7 @@
 			)
 			(uuid "3865a0c3-9fa1-4e21-987c-fa0fdd93d0c5")
 		)
-		(pin "RST" output
+		(pin "~{RST}" output
 			(at 114.3 71.12 0)
 			(effects
 				(font
@@ -421,7 +643,7 @@
 				)
 				(justify right)
 			)
-			(uuid "d0b6832d-73eb-4bb8-bd33-d4b79ffc83de")
+			(uuid "6173005d-101c-43e0-8fd0-ef91500f3475")
 		)
 		(instances
 			(project "ESP-Wordclock"
@@ -509,16 +731,6 @@
 				(justify left top)
 			)
 		)
-		(pin "~{INT}_{RTC}" output
-			(at 177.8 127 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c81785da-faf0-413d-96c7-28d8c1735b31")
-		)
 		(pin "32kHz" output
 			(at 177.8 129.54 180)
 			(effects
@@ -539,7 +751,17 @@
 			)
 			(uuid "52c0cee3-e390-46b8-9229-39013a74d44b")
 		)
-		(pin "~{RST}_{RTC}" input
+		(pin "~{INT}" output
+			(at 177.8 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2932cab4-cc6b-4969-8ae2-34c9ac681601")
+		)
+		(pin "~{RST}" input
 			(at 177.8 124.46 180)
 			(effects
 				(font
@@ -547,7 +769,7 @@
 				)
 				(justify left)
 			)
-			(uuid "dc28d0bb-5a02-4f24-b933-817e4f58da3f")
+			(uuid "881fba6d-f6f4-43b1-806c-7b0116628738")
 		)
 		(instances
 			(project "ESP-Wordclock"
@@ -607,7 +829,7 @@
 			)
 			(uuid "2d8a87b7-000b-4cea-b479-2f238a5a7107")
 		)
-		(pin "RST_{SENS}" input
+		(pin "~{RST}" input
 			(at 177.8 99.06 180)
 			(effects
 				(font
@@ -615,7 +837,7 @@
 				)
 				(justify left)
 			)
-			(uuid "7d14da32-7815-4b8a-98b8-661af4535bb3")
+			(uuid "3fd50ba5-ccf1-4622-8318-b752659b28ab")
 		)
 		(instances
 			(project "ESP-Wordclock"

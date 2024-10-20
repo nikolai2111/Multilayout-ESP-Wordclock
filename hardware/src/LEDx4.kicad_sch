@@ -864,7 +864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c014c3b-e822-4ad2-bc52-773a44d6e729")
-		(property "Reference" "#PWR0756"
+		(property "Reference" "#PWR0702"
 			(at 101.6 67.31 0)
 			(effects
 				(font
@@ -914,7 +914,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "#PWR0756")
+					(reference "#PWR0702")
 					(unit 1)
 				)
 			)
@@ -930,7 +930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b3f9286-72e4-409e-91ff-9064bec7cab4")
-		(property "Reference" "#PWR0774"
+		(property "Reference" "#PWR0708"
 			(at 139.7 190.5 0)
 			(effects
 				(font
@@ -980,7 +980,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "#PWR0774")
+					(reference "#PWR0708")
 					(unit 1)
 				)
 			)
@@ -996,7 +996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32e01fcf-ab2b-4bea-bf1c-6ca6772e03fe")
-		(property "Reference" "#PWR0785"
+		(property "Reference" "#PWR0715"
 			(at 177.8 44.45 0)
 			(effects
 				(font
@@ -1046,7 +1046,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "#PWR0785")
+					(reference "#PWR0715")
 					(unit 1)
 				)
 			)
@@ -1062,7 +1062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d0eadc0-9783-41f5-8b74-cac8b4c4eb1f")
-		(property "Reference" "C719"
+		(property "Reference" "C701"
 			(at 130.81 176.5299 0)
 			(effects
 				(font
@@ -1116,7 +1116,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "C719")
+					(reference "C701")
 					(unit 1)
 				)
 			)
@@ -1132,7 +1132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46184618-9df8-4d9f-b8da-6f9a9e2a62d7")
-		(property "Reference" "#PWR0776"
+		(property "Reference" "#PWR0710"
 			(at 152.4 67.31 0)
 			(effects
 				(font
@@ -1182,7 +1182,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "#PWR0776")
+					(reference "#PWR0710")
 					(unit 1)
 				)
 			)
@@ -1198,7 +1198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55776f08-a251-44ac-88b3-678652f17227")
-		(property "Reference" "#PWR0765"
+		(property "Reference" "#PWR0703"
 			(at 127 44.45 0)
 			(effects
 				(font
@@ -1248,7 +1248,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "#PWR0765")
+					(reference "#PWR0703")
 					(unit 1)
 				)
 			)
@@ -1264,7 +1264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a58a8b5-a6bb-44c6-9475-4f9e4070de3b")
-		(property "Reference" "#PWR0786"
+		(property "Reference" "#PWR0716"
 			(at 177.8 67.31 0)
 			(effects
 				(font
@@ -1314,7 +1314,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "#PWR0786")
+					(reference "#PWR0716")
 					(unit 1)
 				)
 			)
@@ -1330,7 +1330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c5ec952-7f86-48f9-bee2-19067b402085")
-		(property "Reference" "#PWR0755"
+		(property "Reference" "#PWR0701"
 			(at 101.6 44.45 0)
 			(effects
 				(font
@@ -1380,7 +1380,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "#PWR0755")
+					(reference "#PWR0701")
 					(unit 1)
 				)
 			)
@@ -1396,7 +1396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6196818f-29ba-4d42-9417-ee2962a70abe")
-		(property "Reference" "C720"
+		(property "Reference" "C702"
 			(at 143.51 176.5299 0)
 			(effects
 				(font
@@ -1450,7 +1450,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "C720")
+					(reference "C702")
 					(unit 1)
 				)
 			)
@@ -1466,7 +1466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6419c7b9-2317-44d3-8062-4063597cf99b")
-		(property "Reference" "D715"
+		(property "Reference" "D702"
 			(at 138.43 44.4814 0)
 			(effects
 				(font
@@ -1598,7 +1598,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "D715")
+					(reference "D702")
 					(unit 1)
 				)
 			)
@@ -1614,7 +1614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a3cb243-4388-45d9-a5ba-67e13a6fb95c")
-		(property "Reference" "#PWR0781"
+		(property "Reference" "#PWR0711"
 			(at 152.4 175.26 0)
 			(effects
 				(font
@@ -1664,7 +1664,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "#PWR0781")
+					(reference "#PWR0711")
 					(unit 1)
 				)
 			)
@@ -1680,7 +1680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6efa7d9e-a8bd-45f9-883e-0b213ebaf6e0")
-		(property "Reference" "#PWR0771"
+		(property "Reference" "#PWR0705"
 			(at 127 175.26 0)
 			(effects
 				(font
@@ -1730,7 +1730,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "#PWR0771")
+					(reference "#PWR0705")
 					(unit 1)
 				)
 			)
@@ -1746,7 +1746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78e75028-4ce7-4d14-b82e-44d92417a2f6")
-		(property "Reference" "D721"
+		(property "Reference" "D704"
 			(at 189.23 44.4814 0)
 			(effects
 				(font
@@ -1878,7 +1878,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "D721")
+					(reference "D704")
 					(unit 1)
 				)
 			)
@@ -1894,7 +1894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "853b1afc-fb53-46c8-b07d-0c7a49d901a1")
-		(property "Reference" "#PWR0772"
+		(property "Reference" "#PWR0706"
 			(at 127 190.5 0)
 			(effects
 				(font
@@ -1944,7 +1944,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "#PWR0772")
+					(reference "#PWR0706")
 					(unit 1)
 				)
 			)
@@ -1960,7 +1960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b848ee5-3907-4329-beeb-be30e29327f7")
-		(property "Reference" "#PWR0773"
+		(property "Reference" "#PWR0707"
 			(at 139.7 175.26 0)
 			(effects
 				(font
@@ -2010,7 +2010,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "#PWR0773")
+					(reference "#PWR0707")
 					(unit 1)
 				)
 			)
@@ -2026,7 +2026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e9cf059-7768-4524-912c-4a1b3ec5d3ac")
-		(property "Reference" "#PWR0784"
+		(property "Reference" "#PWR0714"
 			(at 165.1 190.5 0)
 			(effects
 				(font
@@ -2076,7 +2076,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "#PWR0784")
+					(reference "#PWR0714")
 					(unit 1)
 				)
 			)
@@ -2092,7 +2092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6cc2413-3ef2-44f9-af18-f556fc539aa1")
-		(property "Reference" "D712"
+		(property "Reference" "D701"
 			(at 113.03 44.4814 0)
 			(effects
 				(font
@@ -2224,7 +2224,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "D712")
+					(reference "D701")
 					(unit 1)
 				)
 			)
@@ -2240,7 +2240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2abb762-046c-4fda-bd5f-96e735a2a555")
-		(property "Reference" "#PWR0783"
+		(property "Reference" "#PWR0713"
 			(at 165.1 175.26 0)
 			(effects
 				(font
@@ -2290,7 +2290,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "#PWR0783")
+					(reference "#PWR0713")
 					(unit 1)
 				)
 			)
@@ -2306,7 +2306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b84aeb96-4609-48fb-b14a-e876e11b87f2")
-		(property "Reference" "#PWR0775"
+		(property "Reference" "#PWR0709"
 			(at 152.4 44.45 0)
 			(effects
 				(font
@@ -2356,7 +2356,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "#PWR0775")
+					(reference "#PWR0709")
 					(unit 1)
 				)
 			)
@@ -2372,7 +2372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba065424-ea3b-43e0-a3e8-840a431e513c")
-		(property "Reference" "#PWR0782"
+		(property "Reference" "#PWR0712"
 			(at 152.4 190.5 0)
 			(effects
 				(font
@@ -2422,7 +2422,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "#PWR0782")
+					(reference "#PWR0712")
 					(unit 1)
 				)
 			)
@@ -2438,7 +2438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c814af8c-e33b-4895-af6b-f64a68497980")
-		(property "Reference" "C721"
+		(property "Reference" "C703"
 			(at 156.21 176.5299 0)
 			(effects
 				(font
@@ -2492,7 +2492,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "C721")
+					(reference "C703")
 					(unit 1)
 				)
 			)
@@ -2508,7 +2508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb88f9a8-ff26-4c88-b942-8b1e4f152790")
-		(property "Reference" "C722"
+		(property "Reference" "C704"
 			(at 168.91 176.5299 0)
 			(effects
 				(font
@@ -2562,7 +2562,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "C722")
+					(reference "C704")
 					(unit 1)
 				)
 			)
@@ -2578,7 +2578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcb5ff91-e27b-49da-8dcc-5fa420b183eb")
-		(property "Reference" "D718"
+		(property "Reference" "D703"
 			(at 163.83 44.4814 0)
 			(effects
 				(font
@@ -2710,7 +2710,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "D718")
+					(reference "D703")
 					(unit 1)
 				)
 			)
@@ -2726,7 +2726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc86d123-0cbc-4457-ac32-a491307511de")
-		(property "Reference" "#PWR0766"
+		(property "Reference" "#PWR0704"
 			(at 127 67.31 0)
 			(effects
 				(font
@@ -2776,7 +2776,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce/ba4e66ee-1ea7-408a-a977-ad0048349e9f"
-					(reference "#PWR0766")
+					(reference "#PWR0704")
 					(unit 1)
 				)
 			)

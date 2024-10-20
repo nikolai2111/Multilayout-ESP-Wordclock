@@ -2641,6 +2641,10 @@
 		(uuid "4b89c39d-09dd-4354-8ccd-d74d46ba3e74")
 	)
 	(no_connect
+		(at 66.04 93.98)
+		(uuid "4e77945c-ded0-465b-bf4b-2a924e66431f")
+	)
+	(no_connect
 		(at 165.1 101.6)
 		(uuid "544c39fa-3cf5-4f67-aa2c-c4309d9b7620")
 	)
@@ -2655,6 +2659,10 @@
 	(no_connect
 		(at 165.1 88.9)
 		(uuid "9227cf2d-d7ef-464c-8166-d1aaa4b41edd")
+	)
+	(no_connect
+		(at 66.04 96.52)
+		(uuid "a2ea31e8-3312-4bfd-8032-8a31e238ae77")
 	)
 	(no_connect
 		(at 165.1 76.2)
@@ -4059,7 +4067,7 @@
 		)
 		(uuid "2f12a14c-4064-4d19-bb54-33e6abc2dcf9")
 	)
-	(hierarchical_label "RST"
+	(hierarchical_label "~{RST}"
 		(shape output)
 		(at 215.9 93.98 0)
 		(fields_autoplaced yes)
@@ -4237,7 +4245,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "green"
 			(at 270.51 93.0274 90)
 			(effects
 				(font
@@ -5279,7 +5287,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "1k"
 			(at 269.24 81.2799 0)
 			(effects
 				(font
@@ -6798,7 +6806,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "green"
 			(at 257.81 93.0274 90)
 			(effects
 				(font
@@ -7004,7 +7012,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "1k"
 			(at 256.54 81.2799 0)
 			(effects
 				(font

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Wordclock - Brightness Sensor")
-		(date "2024-10-19")
+		(date "2024-10-20")
 		(rev "A")
 		(company "ElektroNik Zoller")
 		(comment 1 "Nikolai Zoller")
@@ -107,7 +107,7 @@
 		)
 		(uuid "e573e705-f347-422b-880a-6ffcd260dbbc")
 	)
-	(hierarchical_label "RST_{SENS}"
+	(hierarchical_label "~{RST}"
 		(shape input)
 		(at 165.1 81.28 180)
 		(fields_autoplaced yes)

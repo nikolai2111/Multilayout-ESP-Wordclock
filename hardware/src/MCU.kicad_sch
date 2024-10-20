@@ -2557,6 +2557,26 @@
 		)
 		(uuid "fc073139-e581-420e-b3cb-47aa9d36b0c8")
 	)
+	(text "+3V3 Power Supply"
+		(exclude_from_sim no)
+		(at 215.9 38.1 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "49fa5d5d-94ab-41bb-b0d2-539d073eca1a")
+	)
+	(text "Microcontroller Unit"
+		(exclude_from_sim no)
+		(at 107.95 50.8 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "592e7bcc-ed68-4b61-a1f0-ab2f70400383")
+	)
 	(text "RST"
 		(exclude_from_sim no)
 		(at 44.45 71.374 90)

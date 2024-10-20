@@ -1278,13 +1278,25 @@
 	)
 	(text "Level Shifter +3V3 to 5V"
 		(exclude_from_sim no)
-		(at 50.8 51.054 0)
+		(at 63.5 51.054 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.905 1.905)
 			)
+			(justify right)
 		)
 		(uuid "62bf16d7-0fcf-4ab9-aec1-83fa9cfa0453")
+	)
+	(text "Addressable LED Array"
+		(exclude_from_sim no)
+		(at 76.2 25.4 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "710e4db9-57f7-4b85-9465-870dbd4850fe")
 	)
 	(hierarchical_label "LED_{IN}"
 		(shape input)

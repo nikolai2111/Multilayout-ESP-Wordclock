@@ -61,6 +61,16 @@
 		)
 		(uuid "d87eee77-bc17-4931-a53b-89c8fbbc4d22")
 	)
+	(text "Brightness Sensor"
+		(exclude_from_sim no)
+		(at 127 50.8 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "9b3bd6d5-094e-4b25-bead-45d9d8a82f3e")
+	)
 	(label "I^{2}C.SDA"
 		(at 170.18 71.12 0)
 		(fields_autoplaced yes)

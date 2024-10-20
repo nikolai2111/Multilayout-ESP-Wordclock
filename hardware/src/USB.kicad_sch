@@ -4142,6 +4142,16 @@
 		)
 		(uuid "f5e145eb-f21d-4ed6-8d68-31551c538792")
 	)
+	(text "USB Type C Connector"
+		(exclude_from_sim no)
+		(at 50.8 50.8 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "13f643b5-8a80-4fc1-8e85-2d52d569980b")
+	)
 	(text "Auto program"
 		(exclude_from_sim no)
 		(at 228.6 80.264 0)
@@ -4152,6 +4162,16 @@
 			(justify left bottom)
 		)
 		(uuid "71038b2d-6c04-4839-b425-5d581b8c40d5")
+	)
+	(text "USB to UART Bridge"
+		(exclude_from_sim no)
+		(at 152.4 38.1 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "f473e9ce-5375-44cd-941c-913cd12846c1")
 	)
 	(label "UART.RXD"
 		(at 177.8 68.58 180)

@@ -1509,6 +1509,16 @@
 		)
 		(uuid "286e0b73-4100-4dfe-9081-a75cc50ddbca")
 	)
+	(text "Real Time Clock"
+		(exclude_from_sim no)
+		(at 127 57.15 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "d622e7ba-a465-4865-9b66-35b3f89ac774")
+	)
 	(label "I^{2}C.SCL"
 		(at 93.98 81.28 0)
 		(fields_autoplaced yes)

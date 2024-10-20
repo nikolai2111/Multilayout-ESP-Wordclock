@@ -13,9 +13,39 @@
 		(comment 4 "CERN-OHL-P")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 50.8 48.26) (xy 63.5 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b53fe21-f00f-45ad-8c74-c45d22df1689")
+	)
+	(wire
+		(pts
+			(xy 50.8 45.72) (xy 63.5 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c5fed6-5c21-4e3f-bcec-fd6945028680")
+	)
+	(bus
+		(pts
+			(xy 50.8 40.64) (xy 63.5 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8575130-0cde-40b6-84c5-97235b83f1f1")
+	)
 	(sheet
-		(at 62.23 36.83)
-		(size 26.67 29.21)
+		(at 63.5 38.1)
+		(size 25.4 35.56)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -26,7 +56,7 @@
 		)
 		(uuid "148425c6-8949-47fb-990d-0e511c74cf4c")
 		(property "Sheetname" "MCU"
-			(at 62.23 36.1184 0)
+			(at 63.5 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,13 +65,143 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 62.23 66.6246 0)
+			(at 63.5 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "IO10" input
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "77814b2b-50a5-4ed1-a19a-03a204a019a8")
+		)
+		(pin "IO18" input
+			(at 88.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5e2b0f52-50ac-4f9b-9fc8-d8717f4cfde2")
+		)
+		(pin "IO9" input
+			(at 63.5 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a0dad1fc-7a9c-403f-80d6-07125dc0e79e")
+		)
+		(pin "IO19" input
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c89dfa95-e619-49c5-a01f-b90713b74457")
+		)
+		(pin "IO4" input
+			(at 88.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6689d2f4-739e-4565-be1d-ee48b558fcd9")
+		)
+		(pin "IO3" input
+			(at 88.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b841ce97-865a-4950-8e79-3684c33da18d")
+		)
+		(pin "IO5" input
+			(at 88.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8ff93080-3bdd-4f41-b71c-ea12b2411acb")
+		)
+		(pin "IO6" input
+			(at 88.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "42aa24fd-69eb-4fd4-9fe2-16ffdb5f27fe")
+		)
+		(pin "IO7" input
+			(at 88.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c726a050-77e5-4266-bb79-71c0367cb838")
+		)
+		(pin "UART{TXD, RXD}" bidirectional
+			(at 63.5 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1c8d6da5-dcd1-4ae0-9e1f-e3bc080f516e")
+		)
+		(pin "EN" input
+			(at 63.5 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e576d468-35df-448d-84ae-04d6cfa79acc")
+		)
+		(pin "IO1" input
+			(at 88.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a351ae77-1daf-4f34-acc7-2193dff79c76")
+		)
+		(pin "IO0" input
+			(at 88.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "38d47e9b-f3f1-4397-9a4e-90c2f4e7d791")
 		)
 		(instances
 			(project "ESP-Wordclock"
@@ -52,8 +212,8 @@
 		)
 	)
 	(sheet
-		(at 25.4 39.37)
-		(size 12.7 29.21)
+		(at 25.4 38.1)
+		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -64,7 +224,7 @@
 		)
 		(uuid "987a25a3-048c-43c4-a9ef-49bb39c41ed4")
 		(property "Sheetname" "USB"
-			(at 25.4 38.6584 0)
+			(at 25.4 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,13 +233,43 @@
 			)
 		)
 		(property "Sheetfile" "USB.kicad_sch"
-			(at 25.4 69.1646 0)
+			(at 25.4 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "UART{TXD, RXD}" bidirectional
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "adbe5542-b671-4c02-934a-c52d0362775c")
+		)
+		(pin "BOOT" output
+			(at 50.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3865a0c3-9fa1-4e21-987c-fa0fdd93d0c5")
+		)
+		(pin "RST" output
+			(at 50.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d0b6832d-73eb-4bb8-bd33-d4b79ffc83de")
 		)
 		(instances
 			(project "ESP-Wordclock"
@@ -90,7 +280,7 @@
 		)
 	)
 	(sheet
-		(at 163.83 115.57)
+		(at 116.84 83.82)
 		(size 39.37 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -102,7 +292,7 @@
 		)
 		(uuid "c23f8616-5eaa-4df3-8ee0-2a2271a82cce")
 		(property "Sheetname" "LEDs"
-			(at 163.83 114.8584 0)
+			(at 116.84 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -111,7 +301,7 @@
 			)
 		)
 		(property "Sheetfile" "LEDs.kicad_sch"
-			(at 163.83 136.4746 0)
+			(at 116.84 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)

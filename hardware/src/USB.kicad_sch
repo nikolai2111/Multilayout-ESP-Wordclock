@@ -3673,7 +3673,7 @@
 	(text_box "1"
 		(exclude_from_sim no)
 		(at 240.03 83.82 0)
-		(size 3.81 2.54)
+		(size 5.08 2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -3688,10 +3688,29 @@
 		)
 		(uuid "12aaab8c-ef11-4cd7-95f7-20d50cf30123")
 	)
+	(text_box "The series resistance must be checked after the LEDs have been determined."
+		(exclude_from_sim no)
+		(at 247.65 101.6 0)
+		(size 25.4 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a72b6d8-6eca-4eee-a5d7-5d52a7c98010")
+	)
 	(text_box "1"
 		(exclude_from_sim no)
 		(at 240.03 86.36 0)
-		(size 3.81 2.54)
+		(size 5.08 2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -3709,7 +3728,7 @@
 	(text_box "1"
 		(exclude_from_sim no)
 		(at 240.03 88.9 0)
-		(size 3.81 2.54)
+		(size 5.08 2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -3778,7 +3797,7 @@
 		)
 		(uuid "2cc5a2a7-abce-47ec-9cb4-3f0c95941fc1")
 	)
-	(text_box "EN"
+	(text_box "RST"
 		(exclude_from_sim no)
 		(at 236.22 81.28 0)
 		(size 3.81 2.54)
@@ -3871,7 +3890,7 @@
 	(text_box "0"
 		(exclude_from_sim no)
 		(at 240.03 91.44 0)
-		(size 3.81 2.54)
+		(size 5.08 2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -3923,10 +3942,10 @@
 		)
 		(uuid "ad6c59b2-e18b-4931-8e4d-01431aa5bd71")
 	)
-	(text_box "IO9"
+	(text_box "BOOT"
 		(exclude_from_sim no)
 		(at 240.03 81.28 0)
-		(size 3.81 2.54)
+		(size 5.08 2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -3995,12 +4014,23 @@
 		)
 		(uuid "f5e145eb-f21d-4ed6-8d68-31551c538792")
 	)
+	(text "Auto program"
+		(exclude_from_sim no)
+		(at 228.6 80.264 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71038b2d-6c04-4839-b425-5d581b8c40d5")
+	)
 	(label "UART.RXD"
 		(at 177.8 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.762 0.762)
 			)
 			(justify right bottom)
 		)
@@ -4011,14 +4041,14 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.762 0.762)
 			)
 			(justify right bottom)
 		)
 		(uuid "bfc3c2e1-5ded-4d7d-a7de-8084d4f04576")
 	)
 	(hierarchical_label "BOOT"
-		(shape input)
+		(shape output)
 		(at 215.9 64.77 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4030,7 +4060,7 @@
 		(uuid "2f12a14c-4064-4d19-bb54-33e6abc2dcf9")
 	)
 	(hierarchical_label "RST"
-		(shape input)
+		(shape output)
 		(at 215.9 93.98 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4042,7 +4072,7 @@
 		(uuid "5741e89f-c7c5-42fd-ae7f-11e54100775e")
 	)
 	(hierarchical_label "UART{TXD, RXD}"
-		(shape input)
+		(shape bidirectional)
 		(at 182.88 60.96 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4537,6 +4567,60 @@
 			)
 		)
 		(property "Description" "USB to UART master bridge, QFN-24"
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Silicon Labs"
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part no." "CP2102N-A02-GQFN24R"
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1" "Digikey"
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1 Part no." "336-5888-2-ND"
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 2" "LCSC"
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 2 Part no." " C969151"
 			(at 152.4 88.9 0)
 			(effects
 				(font
@@ -7288,6 +7372,60 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part no." "USB4105-GF-A"
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1" "Digikey"
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1 Part no." "2073-USB4105-GF-ACT-ND"
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 2" "LCSC"
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 2 Part no." " C3020560"
 			(at 50.8 81.28 0)
 			(effects
 				(font

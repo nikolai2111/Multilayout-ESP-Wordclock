@@ -543,7 +543,48 @@
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "field_names": [],
+      "field_names": [
+        {
+          "name": "Manufacturer",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Manufacturer Part no.",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Vendor 1",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Vendor 1 Part no.",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Vendor 2",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Vendor 2 Part no.",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Internal 1 Part no.",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Internal 2 Part no.",
+          "url": false,
+          "visible": false
+        }
+      ],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,

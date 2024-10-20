@@ -206,7 +206,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e"
-					(page "10")
+					(page "2")
 				)
 			)
 		)
@@ -274,14 +274,14 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e"
-					(page "20")
+					(page "3")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 116.84 83.82)
-		(size 39.37 20.32)
+		(at 114.3 88.9)
+		(size 12.7 13.97)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -292,7 +292,7 @@
 		)
 		(uuid "c23f8616-5eaa-4df3-8ee0-2a2271a82cce")
 		(property "Sheetname" "LEDs"
-			(at 116.84 83.1084 0)
+			(at 114.3 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -301,7 +301,7 @@
 			)
 		)
 		(property "Sheetfile" "LEDs.kicad_sch"
-			(at 116.84 104.7246 0)
+			(at 114.3 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -309,10 +309,20 @@
 				(justify left top)
 			)
 		)
+		(pin "LED_{IN}" input
+			(at 114.3 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8c8ce76b-7c36-4fd3-a442-e0ad84ce075a")
+		)
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e"
-					(page "50")
+					(page "6")
 				)
 			)
 		)
@@ -350,7 +360,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e"
-					(page "30")
+					(page "4")
 				)
 			)
 		)
@@ -388,7 +398,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e"
-					(page "40")
+					(page "5")
 				)
 			)
 		)

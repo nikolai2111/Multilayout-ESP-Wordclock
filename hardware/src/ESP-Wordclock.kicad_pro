@@ -529,11 +529,89 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Internal 1 Part no.",
+          "name": "Internal 1 Part no.",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Internal 2 Part no.",
+          "name": "Internal 2 Part no.",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Manufacturer Part no.",
+          "name": "Manufacturer Part no.",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vendor 1",
+          "name": "Vendor 1",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Vendor 1 Part no.",
+          "name": "Vendor 1 Part no.",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Vendor 2",
+          "name": "Vendor 2",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Vendor 2 Part no.",
+          "name": "Vendor 2 Part no.",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -641,6 +719,46 @@
     [
       "c23f8616-5eaa-4df3-8ee0-2a2271a82cce",
       "LEDs"
+    ],
+    [
+      "279cf15d-e36b-46b3-b43a-cd4f4015d6ee",
+      "LED11-1"
+    ],
+    [
+      "29cdb967-d09a-420d-8c7a-29e7e1ad9629",
+      "LED11-2"
+    ],
+    [
+      "45b91a1a-fd95-4984-a25f-facb94f3a86b",
+      "LED11-3"
+    ],
+    [
+      "faf3296b-6dc3-453f-958b-c8b45af082ab",
+      "LED11-4"
+    ],
+    [
+      "86dc274c-cbc0-4514-a94d-29f1f0bacd29",
+      "LED11-5"
+    ],
+    [
+      "6701b6dc-3bd1-42e2-be0a-067e6d57523c",
+      "LED11-6"
+    ],
+    [
+      "3e829d50-62d6-4a9c-80a4-c7fb8ab2ac05",
+      "LED11-7"
+    ],
+    [
+      "9aee06b6-78d1-48aa-99b1-0bf6e4556ced",
+      "LED11-8"
+    ],
+    [
+      "df1b48af-a8ab-46b7-960a-46ebc11d29cf",
+      "LED11-9"
+    ],
+    [
+      "ee8d195a-17b9-4c65-a50b-d727bd205d72",
+      "LED11-10"
     ]
   ],
   "text_variables": {}

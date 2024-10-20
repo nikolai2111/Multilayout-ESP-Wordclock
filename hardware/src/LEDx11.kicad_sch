@@ -6690,7 +6690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af0a529c-e24b-4a1e-aee8-ca4531d73e5b")
-		(property "Reference" "D801"
+		(property "Reference" "D701"
 			(at 113.03 44.4814 0)
 			(effects
 				(font

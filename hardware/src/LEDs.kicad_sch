@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Wordclock - LEDs")
-		(date "2024-10-19")
+		(date "2024-10-20")
 		(rev "A")
 		(company "ElektroNik Zoller")
 		(comment 1 "Nikolai Zoller")
@@ -135,9 +135,13 @@
 			)
 		)
 	)
+	(no_connect
+		(at 114.3 152.4)
+		(uuid "fdb841c9-affc-4038-9508-9971785ee647")
+	)
 	(wire
 		(pts
-			(xy 247.65 139.7) (xy 44.45 139.7)
+			(xy 260.35 133.35) (xy 57.15 133.35)
 		)
 		(stroke
 			(width 0)
@@ -147,7 +151,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 101.6) (xy 44.45 107.95)
+			(xy 57.15 95.25) (xy 57.15 101.6)
 		)
 		(stroke
 			(width 0)
@@ -157,7 +161,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 82.55) (xy 50.8 82.55)
+			(xy 57.15 76.2) (xy 63.5 76.2)
 		)
 		(stroke
 			(width 0)
@@ -167,7 +171,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 101.6) (xy 44.45 101.6)
+			(xy 260.35 95.25) (xy 57.15 95.25)
 		)
 		(stroke
 			(width 0)
@@ -177,7 +181,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 57.15) (xy 247.65 57.15)
+			(xy 254 50.8) (xy 260.35 50.8)
 		)
 		(stroke
 			(width 0)
@@ -187,7 +191,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 44.45) (xy 247.65 44.45)
+			(xy 254 38.1) (xy 260.35 38.1)
 		)
 		(stroke
 			(width 0)
@@ -197,7 +201,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 127) (xy 44.45 127)
+			(xy 260.35 120.65) (xy 57.15 120.65)
 		)
 		(stroke
 			(width 0)
@@ -207,7 +211,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 50.8) (xy 44.45 57.15)
+			(xy 57.15 44.45) (xy 57.15 50.8)
 		)
 		(stroke
 			(width 0)
@@ -217,7 +221,17 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 120.65) (xy 50.8 120.65)
+			(xy 57.15 152.4) (xy 63.5 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b42bc4-7d51-4787-8505-ea230dc5773d")
+	)
+	(wire
+		(pts
+			(xy 57.15 114.3) (xy 63.5 114.3)
 		)
 		(stroke
 			(width 0)
@@ -227,7 +241,17 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 57.15) (xy 247.65 63.5)
+			(xy 57.15 146.05) (xy 57.15 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f5a301-e6f1-4c95-91bb-4f04f9fe44e0")
+	)
+	(wire
+		(pts
+			(xy 260.35 50.8) (xy 260.35 57.15)
 		)
 		(stroke
 			(width 0)
@@ -237,7 +261,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 76.2) (xy 44.45 76.2)
+			(xy 260.35 69.85) (xy 57.15 69.85)
 		)
 		(stroke
 			(width 0)
@@ -247,7 +271,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 114.3) (xy 44.45 120.65)
+			(xy 57.15 107.95) (xy 57.15 114.3)
 		)
 		(stroke
 			(width 0)
@@ -257,7 +281,17 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 63.5) (xy 44.45 69.85)
+			(xy 254 139.7) (xy 260.35 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c0d71f6-e1d6-4462-a70e-5bead3bbb159")
+	)
+	(wire
+		(pts
+			(xy 57.15 57.15) (xy 57.15 63.5)
 		)
 		(stroke
 			(width 0)
@@ -267,7 +301,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 63.5) (xy 44.45 63.5)
+			(xy 260.35 57.15) (xy 57.15 57.15)
 		)
 		(stroke
 			(width 0)
@@ -277,7 +311,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 31.75) (xy 247.65 31.75)
+			(xy 254 25.4) (xy 260.35 25.4)
 		)
 		(stroke
 			(width 0)
@@ -287,7 +321,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 120.65) (xy 247.65 120.65)
+			(xy 254 114.3) (xy 260.35 114.3)
 		)
 		(stroke
 			(width 0)
@@ -297,7 +331,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 107.95) (xy 247.65 107.95)
+			(xy 254 101.6) (xy 260.35 101.6)
 		)
 		(stroke
 			(width 0)
@@ -307,7 +341,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 107.95) (xy 50.8 107.95)
+			(xy 57.15 101.6) (xy 63.5 101.6)
 		)
 		(stroke
 			(width 0)
@@ -317,7 +351,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 146.05) (xy 50.8 146.05)
+			(xy 57.15 139.7) (xy 63.5 139.7)
 		)
 		(stroke
 			(width 0)
@@ -327,7 +361,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 133.35) (xy 50.8 133.35)
+			(xy 57.15 127) (xy 63.5 127)
 		)
 		(stroke
 			(width 0)
@@ -337,7 +371,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 50.8) (xy 44.45 50.8)
+			(xy 260.35 44.45) (xy 57.15 44.45)
 		)
 		(stroke
 			(width 0)
@@ -347,7 +381,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 38.1) (xy 44.45 44.45)
+			(xy 57.15 31.75) (xy 57.15 38.1)
 		)
 		(stroke
 			(width 0)
@@ -357,7 +391,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 95.25) (xy 247.65 95.25)
+			(xy 254 88.9) (xy 260.35 88.9)
 		)
 		(stroke
 			(width 0)
@@ -367,7 +401,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 114.3) (xy 44.45 114.3)
+			(xy 260.35 107.95) (xy 57.15 107.95)
 		)
 		(stroke
 			(width 0)
@@ -377,7 +411,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 44.45) (xy 50.8 44.45)
+			(xy 57.15 38.1) (xy 63.5 38.1)
 		)
 		(stroke
 			(width 0)
@@ -387,7 +421,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 31.75) (xy 247.65 38.1)
+			(xy 260.35 25.4) (xy 260.35 31.75)
 		)
 		(stroke
 			(width 0)
@@ -397,7 +431,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 88.9) (xy 44.45 95.25)
+			(xy 57.15 82.55) (xy 57.15 88.9)
 		)
 		(stroke
 			(width 0)
@@ -407,7 +441,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 88.9) (xy 44.45 88.9)
+			(xy 260.35 82.55) (xy 57.15 82.55)
 		)
 		(stroke
 			(width 0)
@@ -417,7 +451,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 31.75) (xy 34.29 31.75)
+			(xy 38.1 25.4) (xy 46.99 25.4)
 		)
 		(stroke
 			(width 0)
@@ -427,7 +461,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 31.75) (xy 50.8 31.75)
+			(xy 54.61 25.4) (xy 63.5 25.4)
 		)
 		(stroke
 			(width 0)
@@ -437,7 +471,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 139.7) (xy 44.45 146.05)
+			(xy 57.15 133.35) (xy 57.15 139.7)
 		)
 		(stroke
 			(width 0)
@@ -447,7 +481,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 57.15) (xy 50.8 57.15)
+			(xy 57.15 50.8) (xy 63.5 50.8)
 		)
 		(stroke
 			(width 0)
@@ -457,7 +491,17 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 69.85) (xy 50.8 69.85)
+			(xy 260.35 139.7) (xy 260.35 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b81e37c7-7b08-41ed-891f-b3748924fa24")
+	)
+	(wire
+		(pts
+			(xy 57.15 63.5) (xy 63.5 63.5)
 		)
 		(stroke
 			(width 0)
@@ -467,7 +511,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 127) (xy 44.45 133.35)
+			(xy 57.15 120.65) (xy 57.15 127)
 		)
 		(stroke
 			(width 0)
@@ -477,7 +521,17 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 82.55) (xy 247.65 88.9)
+			(xy 260.35 146.05) (xy 57.15 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8e114f1-f705-4913-a5ff-fc3bd4019a27")
+	)
+	(wire
+		(pts
+			(xy 260.35 76.2) (xy 260.35 82.55)
 		)
 		(stroke
 			(width 0)
@@ -487,7 +541,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 82.55) (xy 247.65 82.55)
+			(xy 254 76.2) (xy 260.35 76.2)
 		)
 		(stroke
 			(width 0)
@@ -497,7 +551,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 69.85) (xy 247.65 76.2)
+			(xy 260.35 63.5) (xy 260.35 69.85)
 		)
 		(stroke
 			(width 0)
@@ -507,7 +561,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 69.85) (xy 247.65 69.85)
+			(xy 254 63.5) (xy 260.35 63.5)
 		)
 		(stroke
 			(width 0)
@@ -517,7 +571,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 95.25) (xy 50.8 95.25)
+			(xy 57.15 88.9) (xy 63.5 88.9)
 		)
 		(stroke
 			(width 0)
@@ -527,7 +581,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 107.95) (xy 247.65 114.3)
+			(xy 260.35 101.6) (xy 260.35 107.95)
 		)
 		(stroke
 			(width 0)
@@ -537,7 +591,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 38.1) (xy 44.45 38.1)
+			(xy 260.35 31.75) (xy 57.15 31.75)
 		)
 		(stroke
 			(width 0)
@@ -547,7 +601,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 133.35) (xy 247.65 133.35)
+			(xy 254 127) (xy 260.35 127)
 		)
 		(stroke
 			(width 0)
@@ -557,7 +611,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 120.65) (xy 247.65 127)
+			(xy 260.35 114.3) (xy 260.35 120.65)
 		)
 		(stroke
 			(width 0)
@@ -567,7 +621,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 95.25) (xy 247.65 101.6)
+			(xy 260.35 88.9) (xy 260.35 95.25)
 		)
 		(stroke
 			(width 0)
@@ -577,7 +631,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 133.35) (xy 247.65 139.7)
+			(xy 260.35 127) (xy 260.35 133.35)
 		)
 		(stroke
 			(width 0)
@@ -587,7 +641,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 76.2) (xy 44.45 82.55)
+			(xy 57.15 69.85) (xy 57.15 76.2)
 		)
 		(stroke
 			(width 0)
@@ -597,7 +651,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 44.45) (xy 247.65 50.8)
+			(xy 260.35 38.1) (xy 260.35 44.45)
 		)
 		(stroke
 			(width 0)
@@ -607,7 +661,7 @@
 	)
 	(hierarchical_label "LED_{IN}"
 		(shape input)
-		(at 25.4 31.75 180)
+		(at 38.1 25.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -619,7 +673,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 38.1 31.75 270)
+		(at 50.8 25.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -627,7 +681,7 @@
 		(dnp no)
 		(uuid "2b659f0c-264b-4824-bb68-e887df353e30")
 		(property "Reference" "R601"
-			(at 34.798 30.48 90)
+			(at 47.498 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -636,7 +690,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 41.656 30.48 90)
+			(at 54.356 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -645,7 +699,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 29.972 90)
+			(at 50.8 23.622 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -654,7 +708,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 31.75 0)
+			(at 50.8 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -663,7 +717,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 38.1 31.75 0)
+			(at 50.8 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -687,7 +741,7 @@
 		)
 	)
 	(sheet
-		(at 50.8 29.21)
+		(at 63.5 22.86)
 		(size 190.5 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -699,7 +753,7 @@
 		)
 		(uuid "279cf15d-e36b-46b3-b43a-cd4f4015d6ee")
 		(property "Sheetname" "LED11-1"
-			(at 50.8 28.4984 0)
+			(at 63.5 22.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -708,7 +762,7 @@
 			)
 		)
 		(property "Sheetfile" "LEDx11.kicad_sch"
-			(at 50.8 34.8746 0)
+			(at 63.5 28.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -717,7 +771,7 @@
 			)
 		)
 		(pin "D_{IN}" input
-			(at 50.8 31.75 180)
+			(at 63.5 25.4 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -727,7 +781,7 @@
 			(uuid "8bfe7a9e-84d4-47af-ac3f-dc2b7990875a")
 		)
 		(pin "D_{OUT}" input
-			(at 241.3 31.75 0)
+			(at 254 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -739,13 +793,13 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce"
-					(page "7")
+					(page "8")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 50.8 41.91)
+		(at 63.5 35.56)
 		(size 190.5 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -757,7 +811,7 @@
 		)
 		(uuid "29cdb967-d09a-420d-8c7a-29e7e1ad9629")
 		(property "Sheetname" "LED11-2"
-			(at 50.8 41.1984 0)
+			(at 63.5 34.8484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -766,7 +820,7 @@
 			)
 		)
 		(property "Sheetfile" "LEDx11.kicad_sch"
-			(at 50.8 47.5746 0)
+			(at 63.5 41.2246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -775,7 +829,7 @@
 			)
 		)
 		(pin "D_{IN}" input
-			(at 50.8 44.45 180)
+			(at 63.5 38.1 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -785,7 +839,7 @@
 			(uuid "0f661e14-31e8-4cb8-a807-0d24872779e7")
 		)
 		(pin "D_{OUT}" input
-			(at 241.3 44.45 0)
+			(at 254 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -797,13 +851,13 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce"
-					(page "8")
+					(page "9")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 50.8 105.41)
+		(at 63.5 99.06)
 		(size 190.5 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -815,7 +869,7 @@
 		)
 		(uuid "3e829d50-62d6-4a9c-80a4-c7fb8ab2ac05")
 		(property "Sheetname" "LED11-7"
-			(at 50.8 104.6984 0)
+			(at 63.5 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -824,7 +878,7 @@
 			)
 		)
 		(property "Sheetfile" "LEDx11.kicad_sch"
-			(at 50.8 111.0746 0)
+			(at 63.5 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -833,7 +887,7 @@
 			)
 		)
 		(pin "D_{IN}" input
-			(at 50.8 107.95 180)
+			(at 63.5 101.6 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -843,7 +897,7 @@
 			(uuid "d5ba2ef9-010d-49f9-bf34-4993734df66a")
 		)
 		(pin "D_{OUT}" input
-			(at 241.3 107.95 0)
+			(at 254 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -855,13 +909,13 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce"
-					(page "13")
+					(page "14")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 50.8 54.61)
+		(at 63.5 48.26)
 		(size 190.5 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -873,7 +927,7 @@
 		)
 		(uuid "45b91a1a-fd95-4984-a25f-facb94f3a86b")
 		(property "Sheetname" "LED11-3"
-			(at 50.8 53.8984 0)
+			(at 63.5 47.5484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -882,7 +936,7 @@
 			)
 		)
 		(property "Sheetfile" "LEDx11.kicad_sch"
-			(at 50.8 60.2746 0)
+			(at 63.5 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -891,7 +945,7 @@
 			)
 		)
 		(pin "D_{IN}" input
-			(at 50.8 57.15 180)
+			(at 63.5 50.8 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -901,7 +955,7 @@
 			(uuid "df1ad7ea-d549-4c96-b00b-1add56916277")
 		)
 		(pin "D_{OUT}" input
-			(at 241.3 57.15 0)
+			(at 254 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -913,13 +967,13 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce"
-					(page "9")
+					(page "10")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 50.8 92.71)
+		(at 63.5 86.36)
 		(size 190.5 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -931,7 +985,7 @@
 		)
 		(uuid "6701b6dc-3bd1-42e2-be0a-067e6d57523c")
 		(property "Sheetname" "LED11-6"
-			(at 50.8 91.9984 0)
+			(at 63.5 85.6484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -940,7 +994,7 @@
 			)
 		)
 		(property "Sheetfile" "LEDx11.kicad_sch"
-			(at 50.8 98.3746 0)
+			(at 63.5 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -949,7 +1003,7 @@
 			)
 		)
 		(pin "D_{IN}" input
-			(at 50.8 95.25 180)
+			(at 63.5 88.9 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -959,7 +1013,7 @@
 			(uuid "0b165e8e-f844-4273-835f-b67c13974e56")
 		)
 		(pin "D_{OUT}" input
-			(at 241.3 95.25 0)
+			(at 254 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -971,13 +1025,13 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce"
-					(page "12")
+					(page "13")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 50.8 80.01)
+		(at 63.5 73.66)
 		(size 190.5 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -989,7 +1043,7 @@
 		)
 		(uuid "86dc274c-cbc0-4514-a94d-29f1f0bacd29")
 		(property "Sheetname" "LED11-5"
-			(at 50.8 79.2984 0)
+			(at 63.5 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -998,7 +1052,7 @@
 			)
 		)
 		(property "Sheetfile" "LEDx11.kicad_sch"
-			(at 50.8 85.6746 0)
+			(at 63.5 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1007,7 +1061,7 @@
 			)
 		)
 		(pin "D_{IN}" input
-			(at 50.8 82.55 180)
+			(at 63.5 76.2 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1017,7 +1071,7 @@
 			(uuid "774f4c28-eb08-4bf6-80ef-863eac1ad28e")
 		)
 		(pin "D_{OUT}" input
-			(at 241.3 82.55 0)
+			(at 254 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1029,13 +1083,13 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce"
-					(page "11")
+					(page "12")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 50.8 118.11)
+		(at 63.5 111.76)
 		(size 190.5 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -1047,7 +1101,7 @@
 		)
 		(uuid "9aee06b6-78d1-48aa-99b1-0bf6e4556ced")
 		(property "Sheetname" "LED11-8"
-			(at 50.8 117.3984 0)
+			(at 63.5 111.0484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1056,7 +1110,7 @@
 			)
 		)
 		(property "Sheetfile" "LEDx11.kicad_sch"
-			(at 50.8 123.7746 0)
+			(at 63.5 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1065,7 +1119,7 @@
 			)
 		)
 		(pin "D_{IN}" input
-			(at 50.8 120.65 180)
+			(at 63.5 114.3 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1075,7 +1129,7 @@
 			(uuid "46632da5-f30a-4dd4-970f-47af5e15fab3")
 		)
 		(pin "D_{OUT}" input
-			(at 241.3 120.65 0)
+			(at 254 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1087,13 +1141,71 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce"
-					(page "14")
+					(page "15")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 50.8 130.81)
+		(at 63.5 149.86)
+		(size 50.8 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ba4e66ee-1ea7-408a-a977-ad0048349e9f")
+		(property "Sheetname" "LED04-1"
+			(at 63.5 149.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LEDx4.kicad_sch"
+			(at 63.5 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D_{OUT}" input
+			(at 114.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b9708cdf-2180-4207-a10c-f740cee6aa56")
+		)
+		(pin "D_{IN}" input
+			(at 63.5 152.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6119f842-384e-4d56-b18b-19e713952af6")
+		)
+		(instances
+			(project "ESP-Wordclock"
+				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 124.46)
 		(size 190.5 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -1105,7 +1217,7 @@
 		)
 		(uuid "df1b48af-a8ab-46b7-960a-46ebc11d29cf")
 		(property "Sheetname" "LED11-9"
-			(at 50.8 130.0984 0)
+			(at 63.5 123.7484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1114,7 +1226,7 @@
 			)
 		)
 		(property "Sheetfile" "LEDx11.kicad_sch"
-			(at 50.8 136.4746 0)
+			(at 63.5 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1123,7 +1235,7 @@
 			)
 		)
 		(pin "D_{IN}" input
-			(at 50.8 133.35 180)
+			(at 63.5 127 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1133,7 +1245,7 @@
 			(uuid "3ca2d92d-4862-45f9-bf2d-60b39119ab5c")
 		)
 		(pin "D_{OUT}" input
-			(at 241.3 133.35 0)
+			(at 254 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1145,13 +1257,13 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce"
-					(page "15")
+					(page "16")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 50.8 143.51)
+		(at 63.5 137.16)
 		(size 190.5 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -1163,7 +1275,7 @@
 		)
 		(uuid "ee8d195a-17b9-4c65-a50b-d727bd205d72")
 		(property "Sheetname" "LED11-10"
-			(at 50.8 142.7984 0)
+			(at 63.5 136.4484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1172,7 +1284,7 @@
 			)
 		)
 		(property "Sheetfile" "LEDx11.kicad_sch"
-			(at 50.8 149.1746 0)
+			(at 63.5 142.8246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1181,7 +1293,7 @@
 			)
 		)
 		(pin "D_{IN}" input
-			(at 50.8 146.05 180)
+			(at 63.5 139.7 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1191,7 +1303,7 @@
 			(uuid "a5cfd475-8389-4c7e-9cdb-6b8fb535917c")
 		)
 		(pin "D_{OUT}" input
-			(at 241.3 146.05 0)
+			(at 254 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1203,13 +1315,13 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce"
-					(page "16")
+					(page "17")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 50.8 67.31)
+		(at 63.5 60.96)
 		(size 190.5 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -1221,7 +1333,7 @@
 		)
 		(uuid "faf3296b-6dc3-453f-958b-c8b45af082ab")
 		(property "Sheetname" "LED11-4"
-			(at 50.8 66.5984 0)
+			(at 63.5 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1230,7 +1342,7 @@
 			)
 		)
 		(property "Sheetfile" "LEDx11.kicad_sch"
-			(at 50.8 72.9746 0)
+			(at 63.5 66.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +1351,7 @@
 			)
 		)
 		(pin "D_{IN}" input
-			(at 50.8 69.85 180)
+			(at 63.5 63.5 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1249,7 +1361,7 @@
 			(uuid "59aaa582-be5d-4e2a-aab7-8c9495266ba0")
 		)
 		(pin "D_{OUT}" input
-			(at 241.3 69.85 0)
+			(at 254 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1261,7 +1373,7 @@
 		(instances
 			(project "ESP-Wordclock"
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/c23f8616-5eaa-4df3-8ee0-2a2271a82cce"
-					(page "10")
+					(page "11")
 				)
 			)
 		)

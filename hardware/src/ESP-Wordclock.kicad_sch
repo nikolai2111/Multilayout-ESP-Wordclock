@@ -13,9 +13,141 @@
 		(comment 4 "CERN-OHL-P")
 	)
 	(lib_symbols)
+	(junction
+		(at 165.1 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2057b3c6-992b-4725-b044-30c7bdc56b12")
+	)
+	(junction
+		(at 175.26 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "595424f7-2216-4a62-8033-5f5bc1d8d388")
+	)
 	(wire
 		(pts
-			(xy 50.8 48.26) (xy 63.5 48.26)
+			(xy 120.65 110.49) (xy 120.65 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08e4be28-fe87-4eae-ba20-eff65e95ec6e")
+	)
+	(wire
+		(pts
+			(xy 167.64 83.82) (xy 167.64 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c521132-31a4-472d-bf55-6e5a24e61555")
+	)
+	(bus
+		(pts
+			(xy 165.1 96.52) (xy 165.1 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d1f14c1-0bf5-4569-8149-f49c1c607630")
+	)
+	(bus
+		(pts
+			(xy 152.4 96.52) (xy 165.1 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd31c29-5271-4b49-a945-f32b903d6006")
+	)
+	(wire
+		(pts
+			(xy 175.26 99.06) (xy 175.26 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19eed66f-323f-4f67-b4fc-35167a20e7f5")
+	)
+	(bus
+		(pts
+			(xy 165.1 121.92) (xy 177.8 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e384e66-3d21-440e-80f3-9bfd8fb967f1")
+	)
+	(wire
+		(pts
+			(xy 172.72 73.66) (xy 172.72 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fbeb0b9-4ae0-4b5a-9d35-c0d4f0866c1f")
+	)
+	(bus
+		(pts
+			(xy 177.8 96.52) (xy 165.1 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "507e8dc1-fa3d-443e-90e9-b983e5014851")
+	)
+	(wire
+		(pts
+			(xy 152.4 73.66) (xy 172.72 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a38872-8e4f-4fc1-8a61-410653313329")
+	)
+	(wire
+		(pts
+			(xy 152.4 83.82) (xy 167.64 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f9571f7-15a8-423e-8d00-2019153c08ba")
+	)
+	(wire
+		(pts
+			(xy 175.26 124.46) (xy 120.65 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74509db9-f2fb-4f22-be18-82c779c86020")
+	)
+	(wire
+		(pts
+			(xy 172.72 104.14) (xy 177.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82e0f413-9b07-4293-a8a4-848a3dc6ea98")
+	)
+	(wire
+		(pts
+			(xy 114.3 73.66) (xy 127 73.66)
 		)
 		(stroke
 			(width 0)
@@ -25,7 +157,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 45.72) (xy 63.5 45.72)
+			(xy 114.3 71.12) (xy 127 71.12)
 		)
 		(stroke
 			(width 0)
@@ -33,9 +165,19 @@
 		)
 		(uuid "98c5fed6-5c21-4e3f-bcec-fd6945028680")
 	)
+	(wire
+		(pts
+			(xy 177.8 99.06) (xy 175.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a823de60-ae71-4d4e-a956-05f581122a02")
+	)
 	(bus
 		(pts
-			(xy 50.8 40.64) (xy 63.5 40.64)
+			(xy 114.3 66.04) (xy 127 66.04)
 		)
 		(stroke
 			(width 0)
@@ -43,8 +185,28 @@
 		)
 		(uuid "a8575130-0cde-40b6-84c5-97235b83f1f1")
 	)
+	(wire
+		(pts
+			(xy 167.64 127) (xy 177.8 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa18096a-01be-4171-9b68-16be0d5cf57c")
+	)
+	(wire
+		(pts
+			(xy 175.26 124.46) (xy 177.8 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1576b25-202d-49b2-a2c6-44e6f0e3421b")
+	)
 	(sheet
-		(at 63.5 38.1)
+		(at 127 63.5)
 		(size 25.4 35.56)
 		(fields_autoplaced yes)
 		(stroke
@@ -56,7 +218,7 @@
 		)
 		(uuid "148425c6-8949-47fb-990d-0e511c74cf4c")
 		(property "Sheetname" "MCU"
-			(at 63.5 37.3884 0)
+			(at 127 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,7 +227,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 63.5 74.2446 0)
+			(at 127 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,7 +236,7 @@
 			)
 		)
 		(pin "IO10" input
-			(at 88.9 63.5 0)
+			(at 152.4 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84,7 +246,7 @@
 			(uuid "77814b2b-50a5-4ed1-a19a-03a204a019a8")
 		)
 		(pin "IO18" input
-			(at 88.9 68.58 0)
+			(at 152.4 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -94,7 +256,7 @@
 			(uuid "5e2b0f52-50ac-4f9b-9fc8-d8717f4cfde2")
 		)
 		(pin "IO9" input
-			(at 63.5 48.26 180)
+			(at 127 73.66 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -104,7 +266,7 @@
 			(uuid "a0dad1fc-7a9c-403f-80d6-07125dc0e79e")
 		)
 		(pin "IO19" input
-			(at 88.9 71.12 0)
+			(at 152.4 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -114,7 +276,7 @@
 			(uuid "c89dfa95-e619-49c5-a01f-b90713b74457")
 		)
 		(pin "IO4" input
-			(at 88.9 50.8 0)
+			(at 152.4 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -124,7 +286,7 @@
 			(uuid "6689d2f4-739e-4565-be1d-ee48b558fcd9")
 		)
 		(pin "IO3" input
-			(at 88.9 48.26 0)
+			(at 152.4 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -134,7 +296,7 @@
 			(uuid "b841ce97-865a-4950-8e79-3684c33da18d")
 		)
 		(pin "IO5" input
-			(at 88.9 53.34 0)
+			(at 152.4 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -143,28 +305,8 @@
 			)
 			(uuid "8ff93080-3bdd-4f41-b71c-ea12b2411acb")
 		)
-		(pin "IO6" input
-			(at 88.9 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "42aa24fd-69eb-4fd4-9fe2-16ffdb5f27fe")
-		)
-		(pin "IO7" input
-			(at 88.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "c726a050-77e5-4266-bb79-71c0367cb838")
-		)
 		(pin "UART{TXD, RXD}" bidirectional
-			(at 63.5 40.64 180)
+			(at 127 66.04 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,7 +316,7 @@
 			(uuid "1c8d6da5-dcd1-4ae0-9e1f-e3bc080f516e")
 		)
 		(pin "EN" input
-			(at 63.5 45.72 180)
+			(at 127 71.12 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -184,7 +326,7 @@
 			(uuid "e576d468-35df-448d-84ae-04d6cfa79acc")
 		)
 		(pin "IO1" input
-			(at 88.9 43.18 0)
+			(at 152.4 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -194,7 +336,7 @@
 			(uuid "a351ae77-1daf-4f34-acc7-2193dff79c76")
 		)
 		(pin "IO0" input
-			(at 88.9 40.64 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -202,6 +344,16 @@
 				(justify right)
 			)
 			(uuid "38d47e9b-f3f1-4397-9a4e-90c2f4e7d791")
+		)
+		(pin "I^{2}C{SDA, SCL}" bidirectional
+			(at 152.4 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c2a59166-be9e-47cd-b102-560fb7657f2a")
 		)
 		(instances
 			(project "ESP-Wordclock"
@@ -212,8 +364,8 @@
 		)
 	)
 	(sheet
-		(at 25.4 38.1)
-		(size 25.4 25.4)
+		(at 88.9 63.5)
+		(size 25.4 12.7)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -224,7 +376,7 @@
 		)
 		(uuid "987a25a3-048c-43c4-a9ef-49bb39c41ed4")
 		(property "Sheetname" "USB"
-			(at 25.4 37.3884 0)
+			(at 88.9 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -233,7 +385,7 @@
 			)
 		)
 		(property "Sheetfile" "USB.kicad_sch"
-			(at 25.4 64.0846 0)
+			(at 88.9 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -242,7 +394,7 @@
 			)
 		)
 		(pin "UART{TXD, RXD}" bidirectional
-			(at 50.8 40.64 0)
+			(at 114.3 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -252,7 +404,7 @@
 			(uuid "adbe5542-b671-4c02-934a-c52d0362775c")
 		)
 		(pin "BOOT" output
-			(at 50.8 48.26 0)
+			(at 114.3 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -262,7 +414,7 @@
 			(uuid "3865a0c3-9fa1-4e21-987c-fa0fdd93d0c5")
 		)
 		(pin "RST" output
-			(at 50.8 45.72 0)
+			(at 114.3 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -280,8 +432,8 @@
 		)
 	)
 	(sheet
-		(at 114.3 88.9)
-		(size 12.7 13.97)
+		(at 177.8 63.5)
+		(size 12.7 12.7)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -292,7 +444,7 @@
 		)
 		(uuid "c23f8616-5eaa-4df3-8ee0-2a2271a82cce")
 		(property "Sheetname" "LEDs"
-			(at 114.3 88.1884 0)
+			(at 177.8 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -301,7 +453,7 @@
 			)
 		)
 		(property "Sheetfile" "LEDs.kicad_sch"
-			(at 114.3 103.4546 0)
+			(at 177.8 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -310,7 +462,7 @@
 			)
 		)
 		(pin "LED_{IN}" input
-			(at 114.3 96.52 180)
+			(at 177.8 69.85 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -328,8 +480,8 @@
 		)
 	)
 	(sheet
-		(at 113.03 39.37)
-		(size 26.67 26.67)
+		(at 177.8 119.38)
+		(size 25.4 12.7)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -340,7 +492,7 @@
 		)
 		(uuid "ec66bd8a-ab18-419c-8a8f-29e1d0925890")
 		(property "Sheetname" "RTC"
-			(at 113.03 38.6584 0)
+			(at 177.8 118.6684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -349,13 +501,53 @@
 			)
 		)
 		(property "Sheetfile" "RTC.kicad_sch"
-			(at 113.03 66.6246 0)
+			(at 177.8 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "~{INT}_{RTC}" output
+			(at 177.8 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c81785da-faf0-413d-96c7-28d8c1735b31")
+		)
+		(pin "32kHz" output
+			(at 177.8 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "81f1e651-6dae-47b9-8736-df53fb00a68e")
+		)
+		(pin "I^{2}C{SDA, SCL}" bidirectional
+			(at 177.8 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "52c0cee3-e390-46b8-9229-39013a74d44b")
+		)
+		(pin "~{RST}_{RTC}" input
+			(at 177.8 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dc28d0bb-5a02-4f24-b933-817e4f58da3f")
 		)
 		(instances
 			(project "ESP-Wordclock"
@@ -366,8 +558,8 @@
 		)
 	)
 	(sheet
-		(at 163.83 39.37)
-		(size 33.02 34.29)
+		(at 177.8 93.98)
+		(size 25.4 12.7)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -378,7 +570,7 @@
 		)
 		(uuid "f41fc7d2-fe85-46c5-8d89-2a876a89e5a0")
 		(property "Sheetname" "Brightness Sensor"
-			(at 163.83 38.6584 0)
+			(at 177.8 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -387,13 +579,43 @@
 			)
 		)
 		(property "Sheetfile" "BrightnessSensor.kicad_sch"
-			(at 163.83 74.2446 0)
+			(at 177.8 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "I^{2}C{SDA, SCL}" bidirectional
+			(at 177.8 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c8693132-b389-4e02-9f3d-112cf278aaee")
+		)
+		(pin "LDR" output
+			(at 177.8 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2d8a87b7-000b-4cea-b479-2f238a5a7107")
+		)
+		(pin "RST_{SENS}" input
+			(at 177.8 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7d14da32-7815-4b8a-98b8-661af4535bb3")
 		)
 		(instances
 			(project "ESP-Wordclock"

@@ -2620,7 +2620,7 @@
 		(uuid "84182380-3ce5-4c28-b596-40af7d8e37eb")
 	)
 	(label "UART.RXD"
-		(at 133.35 86.36 180)
+		(at 133.35 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2631,7 +2631,7 @@
 		(uuid "a7606347-32b8-4a83-b50b-491a8c5b1fdf")
 	)
 	(label "UART.TXD"
-		(at 133.35 83.82 180)
+		(at 133.35 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

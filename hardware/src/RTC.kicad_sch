@@ -1252,7 +1252,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 91.44) (xy 101.6 91.44)
+			(xy 76.2 91.44) (xy 85.09 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1490,9 +1490,19 @@
 		)
 		(uuid "fed09770-4d53-465c-8a9d-8a55d292d18b")
 	)
+	(wire
+		(pts
+			(xy 92.71 91.44) (xy 101.6 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff985779-4efd-41f6-aeae-82861b045ba3")
+	)
 	(text_box "Can also be replaced with a more accurate DS3132, all DS3132x ICs are pin-compatible"
 		(exclude_from_sim no)
-		(at 76.2 97.79 0)
+		(at 127 95.25 0)
 		(size 33.02 10.16)
 		(stroke
 			(width 0)
@@ -1508,6 +1518,25 @@
 			(justify left)
 		)
 		(uuid "286e0b73-4100-4dfe-9081-a75cc50ddbca")
+	)
+	(text_box "The RST circuit via the CP2102 circuit still needs to be tested!"
+		(exclude_from_sim no)
+		(at 76.2 95.25 0)
+		(size 19.05 11.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "31552ace-b8ad-4c94-b6a0-c4f65fc294f5")
 	)
 	(text "Real Time Clock"
 		(exclude_from_sim no)
@@ -1555,7 +1584,7 @@
 	)
 	(hierarchical_label "~{RST}"
 		(shape input)
-		(at 88.9 91.44 180)
+		(at 76.2 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3008,6 +3037,147 @@
 			(project ""
 				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/ec66bd8a-ab18-419c-8a8f-29e1d0925890"
 					(reference "#PWR0406")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "c1b72efa-062a-44b4-9407-4c253978d146")
+		(property "Reference" "R403"
+			(at 85.598 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 92.456 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part no." ""
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1" ""
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1 Part no." ""
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 2" ""
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 2 Part no." ""
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Internal 1 Part no." ""
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Internal 2 Part no." ""
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd7b3e82-ff4f-42cd-8ee1-e3fa320f7ae0")
+		)
+		(pin "1"
+			(uuid "6bb1222a-5c93-4016-816a-7fb9b1f15d69")
+		)
+		(instances
+			(project "ESP-Wordclock"
+				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e/ec66bd8a-ab18-419c-8a8f-29e1d0925890"
+					(reference "R403")
 					(unit 1)
 				)
 			)

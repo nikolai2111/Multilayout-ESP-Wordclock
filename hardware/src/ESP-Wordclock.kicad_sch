@@ -12,7 +12,129 @@
 		(comment 1 "Nikolai Zoller")
 		(comment 4 "CERN-OHL-P")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
 	(junction
 		(at 165.1 96.52)
 		(diameter 0)
@@ -25,13 +147,41 @@
 		(color 0 0 0 0)
 		(uuid "595424f7-2216-4a62-8033-5f5bc1d8d388")
 	)
+	(junction
+		(at 120.65 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9587f3f6-0a87-46ac-96b7-8769a16e35d6")
+	)
 	(no_connect
-		(at 177.8 129.54)
-		(uuid "ecff011c-20bd-40d8-86a8-0730ee88652d")
+		(at 152.4 66.04)
+		(uuid "2a17a632-a43a-4469-bbf4-2d8abe20b3d8")
+	)
+	(no_connect
+		(at 152.4 88.9)
+		(uuid "a91a0192-f0e9-4257-9b08-9f8d116922d7")
+	)
+	(no_connect
+		(at 152.4 83.82)
+		(uuid "e5cc1bc1-ce9e-492f-bb86-6c7e9797550a")
+	)
+	(no_connect
+		(at 152.4 91.44)
+		(uuid "eab5ae6e-3272-4ce3-8ca7-c9cbf073008c")
 	)
 	(wire
 		(pts
-			(xy 167.64 83.82) (xy 167.64 127)
+			(xy 152.4 68.58) (xy 158.75 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0733999e-06ff-4fda-a08f-3744b1537851")
+	)
+	(wire
+		(pts
+			(xy 167.64 76.2) (xy 167.64 127)
 		)
 		(stroke
 			(width 0)
@@ -81,13 +231,43 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 73.66) (xy 170.18 104.14)
+			(xy 158.75 118.11) (xy 158.75 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1fbeb0b9-4ae0-4b5a-9d35-c0d4f0866c1f")
+		(uuid "38cc1256-b53f-4a31-91fc-3d4104ab7a7d")
+	)
+	(wire
+		(pts
+			(xy 158.75 129.54) (xy 177.8 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a9be558-4e43-4220-8ff6-a1bd81c01bdb")
+	)
+	(wire
+		(pts
+			(xy 152.4 73.66) (xy 177.8 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f07dd0d-9bea-465e-9309-7d61c3ecc32a")
+	)
+	(wire
+		(pts
+			(xy 120.65 71.12) (xy 127 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43bf01aa-0190-4e01-aad3-2cb3c5e97639")
 	)
 	(bus
 		(pts
@@ -101,7 +281,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 73.66) (xy 170.18 73.66)
+			(xy 152.4 78.74) (xy 170.18 78.74)
 		)
 		(stroke
 			(width 0)
@@ -111,7 +291,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 83.82) (xy 167.64 83.82)
+			(xy 152.4 76.2) (xy 167.64 76.2)
 		)
 		(stroke
 			(width 0)
@@ -131,6 +311,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 71.12) (xy 120.65 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf81bb4-8761-4107-aa3d-34a0a6884db9")
+	)
+	(wire
+		(pts
 			(xy 170.18 104.14) (xy 177.8 104.14)
 		)
 		(stroke
@@ -138,6 +328,16 @@
 			(type default)
 		)
 		(uuid "82e0f413-9b07-4293-a8a4-848a3dc6ea98")
+	)
+	(wire
+		(pts
+			(xy 158.75 68.58) (xy 158.75 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8485b661-08f7-49ff-bc3a-7ee176642d97")
 	)
 	(wire
 		(pts
@@ -191,13 +391,184 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 71.12) (xy 127 71.12)
+			(xy 114.3 71.12) (xy 120.65 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dadb7308-d901-4a27-8775-8a4e9c38e4df")
+	)
+	(wire
+		(pts
+			(xy 170.18 78.74) (xy 170.18 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc6a7b2f-3ac9-457b-be97-1b216a391ca7")
+	)
+	(text_box "The internal RTC could also be used as an option."
+		(exclude_from_sim no)
+		(at 127 109.22 0)
+		(size 19.05 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "221bc9a3-9104-4dce-821a-db0245acffba")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 114.3 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "dfac5f9a-0c4a-4e21-9267-dedbfab825e7")
+		(property "Reference" "R101"
+			(at 156.21 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 156.21 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.528 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 158.75 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part no." ""
+			(at 158.75 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1" ""
+			(at 158.75 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1 Part no." ""
+			(at 158.75 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 2" ""
+			(at 158.75 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 2 Part no." ""
+			(at 158.75 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Internal 1 Part no." ""
+			(at 158.75 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Internal 2 Part no." ""
+			(at 158.75 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "807d4305-a732-42df-b9d5-b3ce3452d83d")
+		)
+		(pin "2"
+			(uuid "72cf795a-4c6a-43bc-911d-f7e1f416d9b3")
+		)
+		(instances
+			(project ""
+				(path "/bfaac094-0365-40a4-8b7a-d4d62ace544e"
+					(reference "R101")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 127 63.5)
@@ -426,7 +797,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 63.5)
+		(at 177.8 67.31)
 		(size 25.4 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -438,7 +809,7 @@
 		)
 		(uuid "c23f8616-5eaa-4df3-8ee0-2a2271a82cce")
 		(property "Sheetname" "LEDs"
-			(at 177.8 62.7884 0)
+			(at 177.8 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -447,7 +818,7 @@
 			)
 		)
 		(property "Sheetfile" "LEDs.kicad_sch"
-			(at 177.8 76.7846 0)
+			(at 177.8 80.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -456,7 +827,7 @@
 			)
 		)
 		(pin "LED_{IN}" input
-			(at 177.8 69.85 180)
+			(at 177.8 73.66 180)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2466,7 +2466,7 @@
 		)
 		(uuid "8a25154c-8b88-4f37-92ca-740b54cc817d")
 	)
-	(text_box "Can also be replaced with a standard TLV1117, both ICs are pin-compatible"
+	(text_box "Can also be replaced with a weaker standard TLV1117, both ICs are pin-compatible"
 		(exclude_from_sim no)
 		(at 199.39 85.09 0)
 		(size 33.02 10.16)

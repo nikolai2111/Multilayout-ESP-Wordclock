@@ -1,0 +1,3 @@
+[submodule "hardware/BasePCB"]
+	path = hardware/BasePCB
+	url = https://github.com/nikolai2111/Multilayout-ESP-Wordclock_HW.git

@@ -7,7 +7,7 @@
 #include <Arduino.h>
 #include <BH1750.h>
 
-#define LEDGPIO 27
+#define LEDGPIO 3
 
 OpenWMap weather;
 BH1750 lightMeter(0x23);
